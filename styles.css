@@ -10,13 +10,11 @@ body {
     margin: 0;
     background-color: rgb(183, 204, 226);
     color: rgb(10, 10, 10);
-    padding: 10px;
-    
+    padding: 10px;   
 }
 
-
 header {
-    background-color: #1e293b;
+    background-color: #8daee3;
     text-align: center;
     padding: 1.5rem;
 }
@@ -27,7 +25,7 @@ header h1 {
 
 header p {
     margin-top: 0.5rem;
-    color: #94a3b8;
+    color: #161718;
 }
 
 nav {
@@ -130,15 +128,8 @@ footer {
   background-color: rgb(221, 231, 242);
   text-align: left;
   border-radius: 8px; 
+  
 }
-
-.socialmedia-links {
-  display: flex;
-  gap: 10px;
-  justify-content: justify-content: block;
-  margin-top: 10px;
-}   
-
 
 /* ===== MEDIA QUERY (Desktop with Larger Screens >= 800px) ===== */
 @media screen and (min-width: 800px) {
