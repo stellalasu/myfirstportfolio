@@ -82,9 +82,10 @@ a:hover {
 }
 
 footer {
-    background-color: #b2b5c1;
+    /*background-color: #b2b5c1; */
+    background-color: rgb(183, 204, 226);
     text-align: center;
-    padding: 1rem;
+    padding: 10rem;
     margin-top: 1rem;
 }
 
