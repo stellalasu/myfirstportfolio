@@ -1,4 +1,5 @@
-Portfolio for Stella Lee
+Project Description:  Portfolio for Stella Lee as Web Devloper & Designer
+
 The HTML is semantic and validated.
 CSS is responsive.  Mobile first layout use.
 There is no Javascript.
@@ -8,4 +9,5 @@ AI Use Statement:  Google was used to generate images used in this Module 6 Buil
 All new HTML and CSS code was written by Stella Lee.
 
 6 Build / Web Link:  https://stellalasu.github.io/myfirstportfolio/
+
 
