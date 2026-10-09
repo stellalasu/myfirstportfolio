@@ -1,11 +1,11 @@
 /* CSS by Stella Lee */
 /* GLOBAL / MOBILE FIRST (Under 800px) */
-
 /* CSS Grid for overall page layout */
 
 body {
     display:grid;
-    grid-template-columns:1fr; /* Single column on mobile */
+    /* Single column on mobile */
+    grid-template-columns:1fr; 
     font-family: Helvetica, Arial;
     margin: 0;
     background-color: rgb(183, 204, 226);
@@ -53,24 +53,25 @@ nav a:hover {
     background-color: #3868ab;
 }
 
-
 main {
     padding: 1rem;
 }
 
 aside {
-    background-color: rgb(221, 231, 242); /* CHANGE COLOR*/
+    background-color: rgb(221, 231, 242); 
     color: #1e293b;
     padding: 1rem;
 }
 
 a {
     display:inline-block;
-    background-color: rgb(255, 255, 255); /*background color for project logos*/
+    /*background color for project logos*/
+    background-color: rgb(255, 255, 255); 
     color:#e2e8f0;
     padding:1rem 2rem;
     text-decoration:none;
     text-align:center;
+    border-radius: 8px;
 }
 aside a {
     background-color: rgb(84,143, 215);
@@ -89,6 +90,11 @@ footer {
     margin-top: 1rem;
 }
 
+p {
+    line-height: 1.5;
+    margin: 0.5rem 0;
+}
+
 /* class to make images clickable */
 .clickable-image-link img {
   width: 100%;
@@ -103,17 +109,6 @@ footer {
   transform: scale(1.03);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-.media-card {
-  display: flex;          /* Places child elements side-by-side */
-  align-items: center;    /* Aligns text and image vertically in the center */
-  gap: 16px;              /* Adds spacing between the image and text */
-}
-
-.media-image {
-  width: 150px;           /* Set a fixed size for the image */
-  height: auto;
-}
-
 .card-row {
   display: flex;
   flex-wrap: wrap;
@@ -128,8 +123,28 @@ footer {
   padding: 10px;
   background-color: rgb(221, 231, 242);
   text-align: left;
-  border-radius: 8px; 
+  border-radius: 8px;
   
+}
+
+.whitebackground {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 8px;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically (if container has a height) */
+ 
+  
+}
+.media-card {
+  display: flex;          /* Places child elements side-by-side */
+  align-items: center;    /* Aligns text and image vertically in the center */
+  gap: 16px;              /* Adds spacing between the image and text */
+}
+
+.media-image {
+  width: 150px;           /* Set a fixed size for the image */
+  height: auto;
 }
 
 /* ===== MEDIA QUERY (Desktop with Larger Screens >= 800px) ===== */
@@ -184,4 +199,3 @@ footer {
 /* target the nav and display it flex, spaced around */
 /* target the .card-row to display flex */
 /* target the sections in .card-row with a width for 30% */
-
