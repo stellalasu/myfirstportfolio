@@ -1,4 +1,4 @@
-Project Description:  Portfolio for Stella Lee as Web Devloper & Designer
+Project Description:  Portfolio for Stella Lee as Web Developer & Designer
 
 The HTML is semantic and validated.
 CSS is responsive.  Mobile first layout use.
